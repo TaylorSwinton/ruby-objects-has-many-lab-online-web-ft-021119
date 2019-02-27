@@ -13,7 +13,7 @@ class Post
   end
 
   def method_name
-    
+
   end
 
 
