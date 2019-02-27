@@ -12,9 +12,9 @@ class Post
     @@all
   end
 
-  def author
-    @post.author = name
-  end
+  #def author
+    #@post.author = name
+#  end
 
   def author_name
     if @author == nil
