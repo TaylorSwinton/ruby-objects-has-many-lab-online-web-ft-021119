@@ -17,10 +17,10 @@ class Post
   end
 
   def author_name
-    if @artist == nil
-      return nil
+    if author
+      author.name
     else
-      @author.name
+      nil
     end
   end
 
