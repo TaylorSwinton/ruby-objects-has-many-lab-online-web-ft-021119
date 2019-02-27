@@ -1,6 +1,6 @@
 class Post
 
-  attr_accessor :title, :author
+  attr_accessor :title, :name
 
   @@all = []
   def initialize(title)
@@ -12,8 +12,8 @@ class Post
     @@all
   end
 
-  def method_name
-
+  def
+    
   end
 
 
