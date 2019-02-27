@@ -13,7 +13,7 @@ class Post
   end
 
   def author
-    post.author = name
+    @post.author = name
   end
 
   def author_name
