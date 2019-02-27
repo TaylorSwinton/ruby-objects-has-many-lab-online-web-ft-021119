@@ -16,5 +16,11 @@ class Post
     post.author = name
   end
 
+  def author_name
+    if @artist == nil
+      
+    else
+      @author.name  
+  end
 
 end
