@@ -6,4 +6,4 @@ class Author
   end
 
 
-extend
+end
